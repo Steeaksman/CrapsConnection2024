@@ -12,4 +12,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: [
+    '@nuxt/content'
+  ],
+  content: {
+    // ... options
+  }
 })
